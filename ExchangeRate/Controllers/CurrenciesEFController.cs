@@ -49,8 +49,10 @@ namespace ExchangeRate.Controllers
                 return BadRequest();
             }
 
-            db.Entry(currency).State = EntityState.Modified;
-
+            Currency updateCurrency = db.Currencies.Find(id);
+            updateCurrency.Name = currency.Name;
+            updateCurrency.Statut = currency.Statut;
+            updateCurrency.Value = currency.Value;
             try
             {
                 db.SaveChanges();

@@ -129,9 +129,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201705240703066_Initial.cs" />
-    <Compile Include="Migrations\201705240703066_Initial.Designer.cs">
-      <DependentUpon>201705240703066_Initial.cs</DependentUpon>
+    <Compile Include="Migrations\201706071244594_initial.cs" />
+    <Compile Include="Migrations\201706071244594_initial.Designer.cs">
+      <DependentUpon>201706071244594_initial.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Currency.cs" />
@@ -154,8 +154,8 @@
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201705240703066_Initial.resx">
-      <DependentUpon>201705240703066_Initial.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201706071244594_initial.resx">
+      <DependentUpon>201706071244594_initial.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
